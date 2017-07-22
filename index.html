@@ -88,7 +88,7 @@
   // キャラクターモデルの初期化
   var load_num = 1;
   var loader = new THREE.TextureLoader();
-  loader.load( '11111.png', function ( texture ) {
+  loader.load( 'land_ocean_ice_cloud_2048.jpg, function ( texture ) {
     var geometry = new THREE.SphereGeometry( 0.5, 32, 16 );
     var material = new THREE.MeshLambertMaterial( { map: texture } );
     mesh = new THREE.Mesh( geometry, material );
